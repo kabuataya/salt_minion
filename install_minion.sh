@@ -27,9 +27,9 @@ echo "Master = $MASTER_IP"
 cd /tmp
 
 # need to have an EPEL repo if not the case
-wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-rpm -Uvh epel-release-latest-7*.rpm
-rm -f /tmp/epel-release-latest-7.noarch.rpm
+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+rpm -Uvh epel-release-latest-8*.rpm
+rm -f /tmp/epel-release-latest-8.noarch.rpm
 
 # install python3
 yum install -y python3    #  =>  installe python 3.6alias python='/usr/bin/python3'
